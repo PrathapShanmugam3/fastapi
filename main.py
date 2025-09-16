@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.api.v1.endpoints import user
+from api.v1.endpoints import user
 
 app = FastAPI(title="FastAPI Real-Time Project")
 
