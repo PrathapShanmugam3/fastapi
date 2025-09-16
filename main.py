@@ -16,6 +16,8 @@ async def startup_event():
     except Exception as e:
         print(f"❌ Database connection failed: {e}")
 
+        
+
 @app.get("/")
 async def root():
     return {"message": "Hello, FastAPI!"}
